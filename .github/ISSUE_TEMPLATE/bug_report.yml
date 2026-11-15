@@ -1,0 +1,40 @@
+name: Bug report
+description: Something doesn't work the way it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Colour maths
+        - Contrast (WCAG / APCA)
+        - Exports
+        - Interface
+        - Other
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device
+      placeholder: e.g. Chrome 142 on Android, Safari on iPhone 15
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
