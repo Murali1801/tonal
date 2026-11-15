@@ -5,7 +5,6 @@ import { mountBench } from './ui/bench';
 import { mountExport } from './ui/exportPanel';
 
 // TODO: replace with a real contact address before launch.
-const CONTACT_EMAIL = 'hello@example.com';
 const REPO_URL = 'https://github.com/Murali1801/tonal';
 const PROFILE_URL = 'https://github.com/Murali1801';
 
@@ -102,7 +101,6 @@ const foot = h(
     'nav',
     { class: 'foot-links', 'aria-label': 'Author' },
     h('a', { href: PROFILE_URL, target: '_blank', rel: 'noopener' }, 'GitHub'),
-    copyButton('Copy email', () => CONTACT_EMAIL, 'linkish'),
     h('a', { href: REPO_URL, target: '_blank', rel: 'noopener' }, 'source'),
   ),
   h('span', { class: 'foot-note mono' }, 'WCAG 2.2 · APCA 0.0.98G-4g · CSS Color 4 gamut mapping'),
