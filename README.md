@@ -3,6 +3,8 @@
   <img src="docs/screenshot-dark.png" alt="Tonal in dark theme with Display P3 tiles marked by a hatched corner" width="49%">
 </p>
 
+[![Tests](https://github.com/Murali1801/tonal/actions/workflows/ci.yml/badge.svg)](https://github.com/Murali1801/tonal/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-16150F)](LICENSE)
+
 # Tonal
 
 Build accessible OKLCH colour scales and export them to CSS, Tailwind v4 and design tokens. Runs in your browser.
