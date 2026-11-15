@@ -1,0 +1,40 @@
+{
+  "name": "tonal-color",
+  "version": "0.1.0",
+  "description": "Build accessible OKLCH colour scales with equal lightness across hues, WCAG 2.2 + APCA contrast, P3 gamut mapping, and CSS / Tailwind v4 / DTCG exports.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "oklch",
+    "color",
+    "palette",
+    "apca",
+    "wcag",
+    "tailwind",
+    "design-tokens",
+    "dtcg",
+    "p3"
+  ],
+  "author": "Muralidhar Acharya (https://github.com/Murali1801)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "culori": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/culori": "^4.0.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Murali1801/tonal"
+  }
+}
