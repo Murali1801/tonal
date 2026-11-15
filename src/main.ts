@@ -4,7 +4,6 @@ import { mountControls } from './ui/controls';
 import { mountBench } from './ui/bench';
 import { mountExport } from './ui/exportPanel';
 
-// TODO: replace with a real contact address before launch.
 const REPO_URL = 'https://github.com/Murali1801/tonal';
 const PROFILE_URL = 'https://github.com/Murali1801';
 

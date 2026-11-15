@@ -7,7 +7,7 @@
 
 Build accessible OKLCH colour scales and export them to CSS, Tailwind v4 and design tokens. Runs in your browser.
 
-**Live demo:** https://tonal.vercel.app <!-- TODO: deploy and confirm the URL -->
+**Live demo:** https://tonal-murali.vercel.app
 
 ## Quick start
 
